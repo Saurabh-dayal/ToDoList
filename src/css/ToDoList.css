@@ -1,0 +1,59 @@
+.completed {
+  color: green;
+}
+
+.notcompleted {
+  color: black;
+}
+
+.displayNone {
+  display: none;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.taskInput {
+  width: 30%;
+}
+
+.taskTable {
+  width: 40%;
+}
+
+@media (max-width: 1000px) {
+  .taskTable {
+    width: 60%;
+  }
+}
+
+@media (max-width: 850px) {
+  .taskInput {
+    width: 60%;
+  }  
+}
+
+@media (max-width: 750px) {
+  .taskTable {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .width50 {
+    width: 50%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .taskTable {
+    width: 90%;
+  }
+
+  .displayNoneCol {
+    display: none;
+  }
+}
